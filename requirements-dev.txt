@@ -1,0 +1,4 @@
+# Host-side deps for scripts/validate_tasks.py (local mode) and writing graders.
+# Keep in sync with what the task Dockerfiles install.
+pytest>=8
+python-hcl2==8.1.4

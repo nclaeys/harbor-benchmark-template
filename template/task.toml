@@ -1,0 +1,31 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "mybench/__TASK_NAME__"
+description = "TODO: one line describing the task"
+authors = []
+keywords = []
+
+# Free-form; scripts/results.py can group by any key (--by category).
+[metadata]
+category = "TODO"        # e.g. python-messy-data, terraform, sql, troubleshooting
+difficulty = "TODO"      # e.g. easy, medium, hard
+language = "python"
+source_ticket = "TODO"   # where the task came from
+
+[verifier]
+timeout_sec = 300.0
+
+[verifier.env]
+
+[agent]
+timeout_sec = 1200.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]

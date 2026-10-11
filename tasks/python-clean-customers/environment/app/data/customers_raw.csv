@@ -1,0 +1,11 @@
+Customer ID,Full Name,E-mail,Signup Date,Country,Monthly Spend
+C0001,  Alice   Janssens ,Alice.Janssens@Example.com,2025-01-15,BE,€ 12.50
+C0002,Bram Peeters,bram.peeters@example.com ,03/02/2025,belgium,"9,99"
+c-0003,Chloé Martin,CHLOE.MARTIN@EXAMPLE.FR,7 Mar 2025,France,"€1.234,50"
+C0004,Daan de Vries,daan@example.nl,2025-02-28,The Netherlands,45
+,Ghost Row,ghost@example.com,2025-01-01,BE,10
+C0005,Eva Müller,eva.mueller@example.de,11/04/2025, de ,
+C0006,Finn Schmidt,finn@example.de,2025-04-30,Germany,"19,00"
+C0002,Bram Peeters,bram.peeters@new-example.com,03/02/2025,BE,"14,99"
+C0007,Gwen  Dubois,gwen.dubois@example.fr,1 Jun 2025,fr,7.5
+C0008,Hugo Willems,hugo.willems@example.be,25/05/2025,BELGIUM,€ 100

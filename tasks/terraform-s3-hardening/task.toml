@@ -1,0 +1,31 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "mybench/terraform-s3-hardening"
+description = "Add versioning, SSE-KMS and a public access block to an existing S3 module"
+authors = []
+keywords = ["terraform", "aws", "existing-codebase"]
+
+[metadata]
+category = "terraform"
+difficulty = "easy"
+language = "terraform"
+source_ticket = "EXAMPLE-456"
+
+[verifier]
+timeout_sec = 300.0
+
+[verifier.env]
+
+[agent]
+timeout_sec = 1200.0
+
+[environment]
+network_mode = "public"
+# OpenTofu + the AWS provider mirror make this image slower to build.
+build_timeout_sec = 1800.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]

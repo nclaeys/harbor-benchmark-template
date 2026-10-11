@@ -1,0 +1,25 @@
+# Harbor output
+jobs/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,7 @@
+Customer ID,Full Name,E-mail,Signup Date,Country,Monthly Spend
+C0101,Ines Claes,Ines.Claes@Example.org,05/06/2025,netherlands,"2.500,00"
+C0100, Jonas  Wouters ,jonas@example.org,2025-07-01,be,3
+C0102,Karel Smet,karel@example.org,12 Aug 2025,BE,"€ 0,99"
+x,Bad Id,bad@example.org,2025-01-01,BE,1
+ 103 ,Lotte Maes, LOTTE@EXAMPLE.ORG ,09/10/2025, Germany ,
+C0100,Jonas Wouters,jonas.wouters@example.org,2025-07-01,BE,"3,50"
